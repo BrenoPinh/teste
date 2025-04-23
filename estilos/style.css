@@ -14,6 +14,11 @@ body{
     background-size: cover;
 }
 
+body::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
 main{
     position: relative;
     height: 100vh;
@@ -69,4 +74,10 @@ section#telefone > a > div{
     border-radius: 10px;
     top: 489px;
     left: 101px;
+}
+
+#whats{
+    position: fixed;
+    top: 93%;
+    left: 97%;
 }
