@@ -78,6 +78,5 @@ section#telefone > a > div{
 
 #whats{
     position: fixed;
-    top: 93%;
-    left: 97%;
+    translate: 50% 94vh;
 }
